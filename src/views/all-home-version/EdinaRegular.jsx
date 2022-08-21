@@ -81,8 +81,7 @@ const EdinaHome = () => {
           <div className="edina_tm_title">
             <h3>What I Do</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+            This is how I can contribute to dev community.
             </p>
           </div>
           {/* End edian_tm_title */}

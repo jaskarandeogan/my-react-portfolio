@@ -2,7 +2,7 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2020 - Present",
+    year: "2020 - Present",
     position: " Web Developer",
     compnayName: "Freelance",
     details: `I have been assisting local businesses in going online by creating their online portfolios and websites. `,

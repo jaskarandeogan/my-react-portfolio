@@ -13,10 +13,7 @@ const Address = () => {
             <h3>Phone</h3>
             <ul>
               <li>
-                <a href="Tel: +452 666 386">+452 666 386</a>
-              </li>
-              <li>
-                <a href="Tel: +465 562 226">+465 562 226</a>
+                <a href="Tel: +778 317 3463">+778 317 3463</a>
               </li>
             </ul>
           </div>{" "}
@@ -33,10 +30,7 @@ const Address = () => {
             <h3>Email</h3>
             <ul>
               <li>
-                <a href="mailto:ib-themes21@gmail.com">support@gmail.com</a>
-              </li>
-              <li>
-                <a href="mailto:ib-themes21@gmail.com">example@support.com</a>
+                <a href="mailto:ib-themes21@gmail.com">jaskran2k15@gmail.com</a>
               </li>
             </ul>
           </div>{" "}
@@ -54,9 +48,8 @@ const Address = () => {
             <ul>
               <li>
                 <p>
-                  Envato 121 King St,
-                  <br />
-                  Melbourne, Australia
+                  Vancouver, Canaada
+                  
                 </p>
               </li>
             </ul>
