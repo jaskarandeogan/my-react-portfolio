@@ -27,11 +27,11 @@ const About = () => {
           >
             <div className="info">
               <h3>
-                Hi, I'm <span>Rokers Nelson</span>
+                Hi, I'm <span>Jaskaranvir Deogan</span>
               </h3>
               <p>
-                I'm a Freelancer Front-end Developer with over 6 years of
-                experience. I'm from San Francisco. I code and create web
+                I'm a aspiring Front-end Developer with over 2 years of
+                experience. I'm from Vancouver, Canada. I code and create web
                 elements for amazing people around the world. I like work with
                 new people.
               </p>
@@ -39,8 +39,7 @@ const About = () => {
             <div className="my_skills">
               <h3 className="title">What is my skill level?</h3>
               <p className="desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                ipsum sit nibh amet egestas tellus.
+              My skill level can be determined by how well I comprehend topics and how much I learn on my own while working on team and freelancing projects.
               </p>
               <div className="wrapper">
                 <div className="dodo_progress">
@@ -83,7 +82,7 @@ const About = () => {
                 data-aos-delay="300"
               >
                 <div className="info">
-                  <h3>6+ Years</h3>
+                  <h3>2+ Years</h3>
                   <span>Of Experiance</span>
                 </div>
               </div>

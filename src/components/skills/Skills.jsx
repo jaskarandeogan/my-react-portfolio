@@ -6,23 +6,31 @@ const skillsContent = [
     skillPercent: "95",
   },
   {
-    name: "Vue.Js",
-    skillPercent: "80",
+    name: "MERN",
+    skillPercent: "85",
   },
   {
-    name: "Photoshop",
-    skillPercent: "90",
+    name: "Tailwind CSS",
+    skillPercent: "85",
   },
   {
     name: "Figma",
     skillPercent: "95",
   },
   {
-    name: "Illustrator",
-    skillPercent: "80",
+    name: "SASS",
+    skillPercent: "90",
   },
   {
     name: "WordPress",
+    skillPercent: "90",
+  },
+  {
+    name: "HTML5 CSS3",
+    skillPercent: "95",
+  },
+  {
+    name: "Github",
     skillPercent: "90",
   },
 ];

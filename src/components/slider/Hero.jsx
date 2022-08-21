@@ -6,7 +6,7 @@ const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "2",
   name: "Jaskaranvir Deogan",
-  description: `I'm a Freelancer Full Stack Developer and Front-end React Developer based In Canada, over 2 years of
+  description: `I'm a aspiring Full Stack Developer and Front-end React Developer based In Canada, over 2 years of
   professional experience.`,
 };
 
@@ -77,8 +77,8 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <a href="img/cv.jpg" download className="color">
-              Download CV
+            <a href="Resume/cv.pdf" download className="color">
+              Download Resume
             </a>
           </div>
         </div>

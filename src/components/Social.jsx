@@ -3,7 +3,6 @@ import {
   FiFacebook,
   FiTwitter,
   FiInstagram,
-  FiDribbble,
   FiGithub,
   FiLinkedin,
 } from "react-icons/fi";

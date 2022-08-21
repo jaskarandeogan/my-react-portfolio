@@ -2,25 +2,16 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
-  },
-  {
     year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    degree: "PG DEGREE",
+    institute: "LANGARA COLLEGE",
+    details: `At Langara College, I completed a post-graduate diploma programme in web and mobile application development. I participated in a team of developers and designers who worked on various projects to create functional prototypes of issues encountered in the real world. `,
   },
   {
-    year: "2009",
+    year: "2019",
     degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    institute: "PUNJAB TECHNICAL UNIVERSITY",
+    details: `I pursued a bachelor's degree in computer science at Punjab Technical University.`,
   },
 ];
 
