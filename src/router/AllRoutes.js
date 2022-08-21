@@ -11,7 +11,7 @@ const AllRoutes = () => {
     <>
       <ScrollTopBehaviour />
       <Routes>
-        <Route path="/" element={<Preview />} />
+        <Route path="/" element={<EdinaRegular />} />
         <Route path="/regular" element={<EdinaRegular />} />
         <Route path="/rtl" element={<EdinaRtl />} />
         <Route path="*" element={<NotFound />} />

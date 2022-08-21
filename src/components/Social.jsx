@@ -4,23 +4,24 @@ import {
   FiTwitter,
   FiInstagram,
   FiDribbble,
+  FiGithub,
   FiLinkedin,
 } from "react-icons/fi";
 
 const SocialShare = [
   {
     iconName: <FiFacebook />,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/jaskarandvg",
   },
-  { iconName: <FiTwitter />, link: "https://twitter.com/" },
+  { iconName: <FiTwitter />, link: "https://twitter.com/DeoganJaskaran" },
   {
     iconName: <FiInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/jskrndeogxn",
   },
-  { iconName: <FiDribbble />, link: "https://dribbble.com/" },
+  { iconName: <FiGithub />, link: "https://github.com/jaskarandeogan" },
   {
     iconName: <FiLinkedin />,
-    link: "https://www.linkedin.com/feed/",
+    link: "https://www.linkedin.com/in/jaskaranvir-deogan",
   },
 ];
 const Social = () => {

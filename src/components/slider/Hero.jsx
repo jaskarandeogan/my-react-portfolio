@@ -5,8 +5,8 @@ import ReactTyped from "react-typed";
 const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "2",
-  name: "Rokers Nelson",
-  description: `I'm a Freelancer Front-end React Developer based In USA, over 6 years of
+  name: "Jaskaranvir Deogan",
+  description: `I'm a Freelancer Full Stack Developer and Front-end React Developer based In Canada, over 2 years of
   professional experience.`,
 };
 
@@ -42,7 +42,7 @@ const Hero = () => {
                 loop
                 typeSpeed={150}
                 backSpeed={60}
-                strings={["Graphic Designer", "Web Developer"]}
+                strings={["Full Stack Developer","Front-end Developer", "MERN Developer"]}
                 smartBackspace
                 shuffle={false}
                 backDelay={1}
