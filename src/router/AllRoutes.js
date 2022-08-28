@@ -4,7 +4,7 @@ import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 import EdinaRtl from "../views/all-home-version/EdinaRtl";
-import Preview from "../views/Preview";
+// import Preview from "../views/Preview";
 
 const AllRoutes = () => {
   return (

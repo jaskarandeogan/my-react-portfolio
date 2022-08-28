@@ -19,7 +19,7 @@ const ModalOne = () => {
 
       <div className="news_details">
         <span>
-          April 07,2021 <a href="#">Design</a>
+          April 07,2021 <a href="/#">Design</a>
         </span>
         <h3 className="title">Forzo Immobile</h3>
       </div>

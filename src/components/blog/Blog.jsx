@@ -75,7 +75,7 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    April 07,2021 <a href="#">Design</a>
+                    April 07,2021 <a href="/#">Design</a>
                   </span>
                   <h3 className="title" onClick={toggleModalOne}>
                     Forzo Immobile
@@ -107,7 +107,7 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    March 25,2021 <a href="#">Branding</a>
+                    March 25,2021 <a href="/#">Branding</a>
                   </span>
                   <h3 className="title" onClick={toggleModalTwo}>
                     Mosby Lavette
@@ -140,7 +140,7 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    May 01,2021 <a href="#">Lifestyle</a>
+                    May 01,2021 <a href="/#">Lifestyle</a>
                   </span>
                   <h3 className="title" onClick={toggleModalThree}>
                     Jacuba Bamba
@@ -173,7 +173,7 @@ const Blog = () => {
 
                 <div className="news_details">
                   <span>
-                    July 07,2021 <a href="#">Travel</a>
+                    July 07,2021 <a href="/#">Travel</a>
                   </span>
                   <h3 className="title" onClick={toggleModalFour}>
                     Dostie Memorie

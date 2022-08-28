@@ -6,7 +6,7 @@ import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
 import Service from "../../components/service/Service";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Testimonial from "../../components/testimonial/Testimonial";
+// import Testimonial from "../../components/testimonial/Testimonial";
 import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
@@ -80,9 +80,7 @@ const EdinaHome = () => {
         <div className="container">
           <div className="edina_tm_title">
             <h3>What I Do</h3>
-            <p>
-            This is how I can contribute to dev community.
-            </p>
+            <p>This is how I can contribute to dev community.</p>
           </div>
           {/* End edian_tm_title */}
           <Service />
@@ -105,16 +103,14 @@ const EdinaHome = () => {
       </div>
       {/* End Portfolio */}
 
-      
       {/* End Testimonial */}
 
       <div className="edina_tm_news" id="blog">
         <div className="container">
           <div className="edina_tm_title">
-            <h3>Blog</h3>
+            <h3>My Projects</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Have a look on my projects that I have done so far....
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -128,8 +124,8 @@ const EdinaHome = () => {
           <div className="edina_tm_title">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Want to get in touch? I'd be delighted to hear from you. Here's
+              how you can reach me.....
             </p>
           </div>
           <div className="extra_info">
