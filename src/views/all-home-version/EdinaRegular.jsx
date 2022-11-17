@@ -7,7 +7,6 @@ import About from "../../components/about/About";
 import Service from "../../components/service/Service";
 import Portfolio from "../../components/portfolio/Portfolio";
 // import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
 import Map from "../../components/Map";
@@ -105,7 +104,7 @@ const EdinaHome = () => {
 
       {/* End Testimonial */}
 
-      <div className="edina_tm_news" id="blog">
+      {/* <div className="edina_tm_news" id="blog">
         <div className="container">
           <div className="edina_tm_title">
             <h3>My Projects</h3>
@@ -113,10 +112,10 @@ const EdinaHome = () => {
               Have a look on my projects that I have done so far....
             </p>
           </div>
-          {/* End edian_tm_title */}
+          
           <Blog />
         </div>
-      </div>
+      </div> */}
       {/* End Blog */}
 
       <div className="edina_tm_contact" id="contact">

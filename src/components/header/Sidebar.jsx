@@ -22,8 +22,6 @@ const sidebarContent = [
     itemRoute: "#portfolio",
     activeClass: "",
   },
-  
-  { icon: "blog", itemName: "Blog", itemRoute: "#blog", activeClass: "" },
   {
     icon: "contact",
     itemName: "Contact",
@@ -82,7 +80,6 @@ const Sidebar = () => {
                 "about",
                 "service",
                 "portfolio",
-                "blog",
                 "contact",
               ]}
               activeNavClass="active"
