@@ -140,9 +140,9 @@ const EdinaHome = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  I'm always open to discussing web
                   <br />
-                  <span> design work or partnerships.</span>
+                  <span> development or partnerships.</span>
                 </p>
               </div>
               {/* End title */}
