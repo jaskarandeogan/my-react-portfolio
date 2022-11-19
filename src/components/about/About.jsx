@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Skills from "../skills/Skills";
 import Modal from "react-modal";
 import ModalContent from "./modal/ModalContent";
+import image from '../../assets/profile.JPG';
 
 Modal.setAppElement("#root");
 
@@ -10,6 +11,7 @@ const About = () => {
   function toggleModalOne() {
     setIsOpen(!isOpen);
   }
+  console.log(image);
 
   return (
     //    ABOUT
@@ -65,15 +67,11 @@ const About = () => {
 
               <div
                 className="main"
-                style={{
-                  backgroundImage: `url(${
-                    process.env.PUBLIC_URL + "img/about/2.jpg"
-                  })`,
-                }}
                 data-aos="fade-left"
                 data-aos-duration="1200"
                 data-aos-delay="200"
-              ></div>
+              >
+              </div>
 
               <div
                 className="experience"

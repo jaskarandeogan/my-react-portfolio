@@ -15,13 +15,6 @@ const Hero = () => {
     //    HERO
     <div className="edina_tm_hero" id="home">
       <div className="content">
-        {/* <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
-          <img
-            src={`img/hero/${heroContent.shapeImage}`}
-            srcSet={`img/hero/${heroContent.heroImage}.jpg`}
-            alt="about author"
-          />
-        </div> */}
         <div className="extra">
           <h5
             data-aos="fade-up"
