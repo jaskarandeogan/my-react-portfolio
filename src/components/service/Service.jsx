@@ -55,7 +55,7 @@ const Service = () => {
         {/* Start Service Ui/Ux Consultancy */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalTwo}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/2.svg" alt="" />
                 <div className="service_title">
@@ -73,7 +73,7 @@ const Service = () => {
         {/* Start Service Branding & Design */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalThree}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/3.svg" alt="" />
                 <div className="service_title">
@@ -91,7 +91,7 @@ const Service = () => {
         {/* Start Service Mobile App Design */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalFour}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/4.svg" alt="" />
                 <div className="service_title">
