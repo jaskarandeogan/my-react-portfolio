@@ -430,7 +430,7 @@ body.dark .loader_line:after {
   z-index: 98;
   transition: all 0.5s ease;
   @media screen and (min-width: 1200px) and (max-width: 1500px) {
-    width: 288px;
+    max-width: 288px;
   }
   @media screen and (max-width: 1199px) {
     transform: translateX(-100%);
@@ -544,7 +544,7 @@ body.dark .loader_line:after {
   height: auto;
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 40px 20px;
   @media screen and (max-width: 1199px) {
     padding: 20px;
   }
