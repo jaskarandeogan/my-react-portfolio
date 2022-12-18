@@ -2,6 +2,14 @@ import React from "react";
 
 const experienceContent = [
   {
+    year: "2022 - Present",
+    position: " Full stack Developer",
+    compnayName: "Garden Intelligence",
+    details: `
+    I started as a full stack developer for garden intel, we developing a system to Supercharge on-chain data to understand your customers, improve your web3 product, and maximize revenue. 
+    `,
+  },
+  {
     year: "2020 - Present",
     position: " Web Developer",
     compnayName: "Freelance",
