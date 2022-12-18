@@ -5,7 +5,7 @@ import Sidebar from "../../components/header/Sidebar";
 import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
 import Service from "../../components/service/Service";
-import Portfolio from "../../components/portfolio/Portfolio";
+import PortfolioA from "../../components/portfolio/PortfolioA";
 // import Testimonial from "../../components/testimonial/Testimonial";
 import Contact from "../../components/Contact";
 import Address from "../../components/Address";
@@ -92,31 +92,14 @@ const EdinaHome = () => {
           <div className="edina_tm_title">
             <h3>Portfolio</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              Here are some of my recent projects. I'm always looking for new
             </p>
           </div>
           {/* End edian_tm_title */}
-          <Portfolio />
+          <PortfolioA />
         </div>
       </div>
       {/* End Portfolio */}
-
-      {/* End Testimonial */}
-
-      {/* <div className="edina_tm_news" id="blog">
-        <div className="container">
-          <div className="edina_tm_title">
-            <h3>My Projects</h3>
-            <p>
-              Have a look on my projects that I have done so far....
-            </p>
-          </div>
-          
-          <Blog />
-        </div>
-      </div> */}
-      {/* End Blog */}
 
       <div className="edina_tm_contact" id="contact">
         <div className="container">
