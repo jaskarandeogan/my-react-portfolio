@@ -27,13 +27,17 @@ const Service = () => {
     setIsOpen4(!isOpen4);
   }
 
+  function comingSoon() {
+    alert("Coming Soon");
+  }
+
   return (
     <div className="service_list">
       <ul>
         {/* Start Service Motion & Web Graphy */}
         <li data-aos="fade-right" data-aos-duration="1200">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalOne}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/1.svg" alt="" />
                 <div className="service_title">
