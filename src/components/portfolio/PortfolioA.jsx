@@ -17,7 +17,9 @@ const Portfolio = () => {
       title: "Rest Countries API",
       description: "proof of concept",
       image: "img/portfolio/countries.svg",
-      link: "https://ecommerce-olive.vercel.app/",
+
+      link: "https://my-tailwind-project.vercel.app/",
+
     },
     {
       title: "Splink",
