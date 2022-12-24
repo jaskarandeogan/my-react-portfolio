@@ -43,7 +43,7 @@ const EdinaHome = () => {
       className={`home-light edina_tm_mainpart ${isDark ? "theme-dark" : ""}`}
     >
       {/* Start Dark & Light Mode Swicher  */}
-      <label
+      {/* <label
         className={`theme-switcher-label d-flex  ${isDark ? "active" : ""}`}
       >
         <input
@@ -59,7 +59,7 @@ const EdinaHome = () => {
             <FaSun />
           </i>
         </div>
-      </label>
+      </label> */}
       {/* End Dark & Light Mode Swicher  */}
 
       <header className="header-area">

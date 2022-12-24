@@ -642,6 +642,20 @@ body.dark .loader_line:after {
   transition: all 1s ease;
 }
 
+.edina_tm_hero .background-grad{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.edina_tm_hero .background-grad img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .edina_tm_hero .image .main {
   position: absolute;
   top: 0px;
