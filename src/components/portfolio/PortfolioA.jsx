@@ -100,7 +100,6 @@ const Portfolio = () => {
                       className="tooltip-wrapper"
                     >
                       <div>
-                      {console.log(project)}
                         <h5>{project.title}</h5>
                         <span>{project.description}</span>
                       </div>
