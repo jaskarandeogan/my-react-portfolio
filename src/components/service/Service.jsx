@@ -27,13 +27,17 @@ const Service = () => {
     setIsOpen4(!isOpen4);
   }
 
+  function comingSoon() {
+    alert("Coming Soon");
+  }
+
   return (
     <div className="service_list">
       <ul>
         {/* Start Service Motion & Web Graphy */}
         <li data-aos="fade-right" data-aos-duration="1200">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalOne}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/1.svg" alt="" />
                 <div className="service_title">
@@ -51,7 +55,7 @@ const Service = () => {
         {/* Start Service Ui/Ux Consultancy */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="100">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalTwo}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/2.svg" alt="" />
                 <div className="service_title">
@@ -69,7 +73,7 @@ const Service = () => {
         {/* Start Service Branding & Design */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalThree}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/3.svg" alt="" />
                 <div className="service_title">
@@ -87,7 +91,7 @@ const Service = () => {
         {/* Start Service Mobile App Design */}
         <li data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300">
           <Tilt>
-            <div className="list_inner" onClick={toggleModalFour}>
+            <div className="list_inner" onClick={comingSoon}>
               <div className="hover">
                 <img className="svg custom" src="img/svg/4.svg" alt="" />
                 <div className="service_title">
