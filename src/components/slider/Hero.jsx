@@ -14,6 +14,9 @@ const Hero = () => {
   return (
     //    HERO
     <div className="edina_tm_hero" id="home">
+      <div className="background-grad">
+        <img src="img/hero/72.jpg" alt="hero" />
+      </div>
       <div className="content">
         <div className="extra">
           <h5
