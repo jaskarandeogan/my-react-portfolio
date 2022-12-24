@@ -16,14 +16,15 @@ const EdinaHome = () => {
   const [isDark, setIsDark] = useState(false);
   document.querySelector("body").classList.remove("rtl");
 
-  // useEffect(() => {
-  //   const currentThemeColor = localStorage.getItem("theme-color");
-  //   if (currentThemeColor === "theme-dark") {
-  //     setIsDark(true);
-  //   } else {
-  //     setIsDark(false);
-  //   }
-  // }, []);
+  React.useEffect(() => {
+    const currentThemeColor = localStorage.getItem("theme-color");
+    if (currentThemeColor === "theme-dark") {
+      setIsDark(true);
+    } else {
+      setIsDark(false);
+    }
+    document.querySelector("body").classList.add("theme-light");
+  }, []);
 
   const handleLabelClick = () => {
     if (isDark) {
@@ -43,7 +44,7 @@ const EdinaHome = () => {
       className={`home-light edina_tm_mainpart ${isDark ? "theme-dark" : ""}`}
     >
       {/* Start Dark & Light Mode Swicher  */}
-      {/* <label
+      <label
         className={`theme-switcher-label d-flex  ${isDark ? "active" : ""}`}
       >
         <input
@@ -59,7 +60,7 @@ const EdinaHome = () => {
             <FaSun />
           </i>
         </div>
-      </label> */}
+      </label>
       {/* End Dark & Light Mode Swicher  */}
 
       <header className="header-area">
